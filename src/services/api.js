@@ -4,7 +4,7 @@ import axios from 'axios';
 const isDevelopment = import.meta.env.DEV;
 const API_BASE_URL = isDevelopment 
   ? 'http://localhost:5000/api' 
-  : 'https://timetable-backend-529s.onrender.com/api';
+  : 'https://timetable-backend-wwtx.onrender.com';
 
 console.log('API Base URL:', API_BASE_URL);
 console.log('Environment:', isDevelopment ? 'Development' : 'Production');
